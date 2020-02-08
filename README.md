@@ -1,32 +1,18 @@
-README for review two.
+## School reports Kata
 
-School reports
-Tests
+Build a program that returns a summary of school report results.
+Expected behaviour...
 
-comma separated results
-build a report
-
-Input
-"Green"
-"green"
-"Amber"
-"red"
-"Green,Amber,Red"
-"Green,Green,Amber,Red"
-"green,green,amber,red"
-"Green,green,Amber,red"
-"Green,blue,Amber,red"
-
-Output
-"Green: 1"
-"Green: 1"
-"Amber: 1"
-"Red: 1"
-"Green: 1\nAmber: 1\nRed: 1"
-"Green: 2\nAmber: 1\nRed: 1"
-"Uncounted :4"
-"Green: 1\nAmber: 1\nUncounted: 2"
-"Green: 1\nAmber: 1\nUncounted: 2"
+Input => Output
+"Green" => "Green: 1"
+"green" => "Green: 1"
+"Amber" => "Amber: 1"
+"red" => "Red: 1"
+"Green,Amber,Red" => "Green: 1\nAmber: 1\nRed: 1"
+"Green,Green,Amber,Red" => "Green: 2\nAmber: 1\nRed: 1"
+"green,green,amber,red" => "Uncounted :4"
+"Green,green,Amber,red" => "Green: 1\nAmber: 1\nUncounted: 2"
+"Green,blue,Amber,red" => "Green: 1\nAmber: 1\nUncounted: 2"
 
 Always be a string input
 Unlimited inputs
